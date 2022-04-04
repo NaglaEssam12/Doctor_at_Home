@@ -1,0 +1,247 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi", "good day", "hi there", "Whats up?"],
+      "response": ["Hello", "Hey!", "What can I do for you?", "How can I be of service?", "How can I help you?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "What is your name", "What should I call you?","Who are you?"],
+      "response": ["My name is Stark", "I am called Stark", "I am Ahmed's assistant, Stark"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see ya", "see you later", "good day", "goodbye", "talk to you again"],
+      "response": ["Talk to you later", "Goodbye", "Have a good day"]
+    },
+	{
+	  "tag": "speciality",
+      "patterns": ["which specialities do you have?", "which diseases do you treat?", "what are the services you present?", "what are the services you present", "which diseases do you treat","which specialities do you have"],
+      "response": ["I specialize in Chest and respiratory diseases like Tuberculosis (TB) and Pneumonia."]
+	},
+	{
+	  "tag": "tuberculosis definition",
+      "patterns": ["What is Tuberculosis?", "what is tuberculosis?", "what's Tuberculosis?","What's tuberculosis?","what's tuberculosis?","what does tuberculosis mean?","What does tuberculosis mean?","what is tuberculosis"],
+      "response": ["Tuberculosis (TB) is a contagious infection that usually attacks your lungs. It can also spread to other parts of your body, like your brain and spine. A type of bacteria called Mycobacterium tuberculosis causes it"]
+	},
+	{
+	  "tag": "TB types",
+      "patterns": ["Is there exist types for tuberculosis?", "is there exist types for tuberculosis?", "What are types of tuberculosis?","what are types of tuberculosis?","what are types of tuberculosis","What are types of TB?","what are types of TB?","what are types of TB"],
+      "response": ["There are two forms of the disease: Latent TB and Active TB"]
+		
+	},
+	{
+	  "tag": "Latent TB",
+      "patterns": ["What is Latent TB?", "What's Latent TB?", "What is latent TB?", "what's latent TB?", "What does Latent TB mean?", "what does latent tb mean?", "What is latent TB infection (LTBI)?", "What is latent TB infection?",  "What is LTBI?", "what is LTBI?", "what is latent TB infection?"], 
+      "response": ["You have the germs in your body, but your immune system keeps them from spreading You don’t have any symptoms, and you’re not contagious. But the infection is still alive and can one day become active"]
+	},
+	{
+	  "tag": "Active TB",
+      "patterns": ["What is Active TB?", "What's Active TB?", "What is active TB?", "what's active TB?", "What does Active TB mean?", "what does active tb mean?", "what does active TB mean?"],
+      "response": ["The germs multiply and make you sick. You can spread the disease to others. Ninety percent of active cases in adults come from a latent TB infection."]
+	},
+	{
+	  "tag": "TB symptoms",
+      "patterns": ["What are symptoms of Tuberculosis?", "what are symptoms of tuberculosis?", "what are signs of tuberculosis?", "What are signs of tuberculosis?", "What are symptoms of tuberculosis?","what are symptoms of tuberculosis", "what are symptoms of TB?", "what are symptoms of TB","What are symptoms of TB?","What are signs of TB?","what are signs of TB","what are signs of TB?"],
+      "response": ["Latent TB doesn’t have symptoms. A skin or blood test can tell if you have it. Active TB disease include: A cough that lasts more than 3 weeks, Coughing up blood, Feeling tired all the time, Night sweats, Chills, Fever, Loss of appetite, Weight loss"]
+		
+	},
+	{	
+      "tag": "TB causes",
+      "patterns": ["What are causes of Tuberculosis?", "What are causes of tuberculosis?", "what are causes of tuberculosis?", "What reasons does exist behind tuberculosis?", "what reasons does exist behind tuberculosis?", "what are causes of TB?", "What are causes of TB?", "what are causes of TB", "What reasons does exist behind TB?","what reasons does exist behind TB?", "what reasons does exist behind TB"],
+      "response": ["Tuberculosis is caused by bacteria that spread through the air, just like a cold or the flu. You can get TB only if you come into contact with people who have it."]
+	},
+	{
+	  "tag": "TB risks",
+      "patterns": ["What are risk factors of Tuberculosis?", "What are risk factors of tuberculosis?", "what are risk factors of tuberculosis?", "what are reasons to be injured with tuberculosis?", "What are reasons to be injured with tuberculosis?", "Who is at risk for getting TB?", "who is at risk for getting TB?","who is at risk for getting TB","What are risk factors of TB?","what are risk factors of TB?","what are risk factors of TB","what are reasons to be injured with TB?","What are reasons to be injured with TB?","what are reasons to be injured with TB"],
+      "response": ["You could be more likely to get TB if:A friend, co-worker, or family member has active TB.You live in or have traveled to an area where TB is common, like Russia, Africa, Eastern Europe, Asia, Latin America, and the Caribbean.You’re part of a group in which TB is more likely to spread, or you work or live with someone who is. This includes homeless people, people who have HIV, people in jail or prison, and people who inject drugs into their veins.You work or live in a hospital or nursing home.You’re a health care worker for patients at high risk of TB.You’re a smoker."]
+	},
+	{	
+      "tag": "TB tests",
+      "patterns": ["What are tests of tuberculosis?", "what are tests of tuberculosis?","what are tests of TB?","what are tests of tuberculosis","what are tests of TB","What are tests of TB?"],
+      "response": ["There are two common tests for tuberculosis: Skin test: A technician injects a small amount of fluid into the skin of your lower arm.  If your results are positive, you probably have TB bacteria.The results can also be false negative, saying that you don’t have TB when you really do. Blood test: These tests, also called interferon-gamma release assays (IGRAs), measure the response when TB proteins are mixed with a small amount of your blood. A chest X-ray or CT scan to look for changes in your lungs. Acid-fast bacillus (AFB) tests for TB bacteria in your sputum, the mucus that comes up when you cough."]
+	},
+	{
+		
+      "tag": "TB medication side effects",
+      "patterns": ["what are side effects of tuberculosis medication?", "What are side effects of tuberculosis medication?", "what are side effects of TB medication?", "What are side effects of TB medication?","what are side effects of tuberculosis medication","what are side effects of TB medication"],
+      "response": ["Side effects include: Numbness and tingling in your hands and feet Upset stomach, nausea, and vomiting Loss of appetite Weakness"]
+	},
+	{
+		
+      "tag": "Pneumonia definition",
+      "patterns": ["What is pneumonia?", "What's pneumonia?", "What does pneumonia mean?", "What is the mean of pneumonia?","What's the mean of pneumonia?","What is the definition of pneumonia?","What's the definition of pneumonia?"],
+      "response": ["Pneumonia happens when an infection causes the air sacs in your lungs to fill with fluid or pus. That can make it hard for you to breathe in enough oxygen to reach your bloodstream."]
+	},
+	{
+		
+      "tag": "germs and body",
+      "patterns": ["How do germs enter our body?", "How do germs enter the body?", "How do germs cross our body?", "How do germs cross the body?","How do germs reach our body?","How do germs reach the body?"],
+      "response": ["Community acquired pneumonia (CAP), hospital acquired pneumonia (HAP),healthcare acquired pneumonia (HCAP), ventilator associated pneumonia (VAP),and aspiration – a condition where foreign materials (food, saliva, nasal secretions) enter the bronchial tree."]
+	},
+	{
+		
+      "tag": "Pneumonia causes",
+      "patterns": ["What are the causes of pneumonia?", "What reasons does exist behind pneumonia?", "What causes pneumonia?", "What are the main causes of pneumonia?"],
+      "response": ["Causes include bacteria, viruses, fungi, flu viruses, cold viruses, RSV virus (the top cause of pneumonia in babies age 1 or younger), andbacteria called Streptococcus pneumoniae and Mycoplasma pneumoniae."]
+	},
+	{
+		
+      "tag": "Pneumonia types",
+      "patterns": ["What are the types of pneumonia?", "What are the different types of pneumonia?", "Are there types of pneumonia?", "Are there different types of pneumonia?"],
+      "response": ["There are many types of pneumonia such as viral pneumonia, bacterial pneumonia, fungal pneumonia, and aspiration pneumonia."]
+	},
+	{
+		
+      "tag": "Viral pneumonia definition",
+      "patterns": ["What is viral pneumonia?", "What's viral pneumonia?", "What does viral pneumonia mean?", "What is the mean of viral pneumonia?","What's the mean of viral pneumonia?","What is the definition of viral pneumonia?","What's the definition of viral pneumonia?"],
+      "response": ["Viral infections are one of the most common types of pneumonia. About 27% of patients with pneumonia have an identifiable viral cause. Viruses that affect the airway can cause inflammation in the lungs and lead to pneumonia."]
+	},
+	{
+		
+      "tag": "Viral pneumonia causes",
+      "patterns": ["What are the causes of viral pneumonia?", "What reasons does exist behind viral pneumonia?", "What causes viral pneumonia?", "What are the main causes of viral pneumonia?"],
+      "response": ["The common cold, flu viruses, respiratory syncytial virus (RVS), and coronavirus, specifically SARS-CoV-2, the virus that causes COVID-19."]
+	},
+	{
+		
+      "tag": "Viral pneumonia symptoms",
+      "patterns": ["What are the symptoms of viral pneumonia?", "What are the common symptoms of viral pneumonia?", "What are the signs of viral pneumonia?"],
+      "response": ["Early symptoms are similar to influenza symptoms: fever, a dry cough, headache, muscle pain, and weakness. Within a day or two, the symptoms typically get worse, with increasing cough, shortness of breath and muscle pain. There may be a high fever and there may be blueness of the lips."]
+	},
+	{
+		
+      "tag": "Viral pneumonia treatment",
+      "patterns": ["What is the treatment for viral pneumonia?", "What's the treatment for viral pneumonia?", "How is viral pneumonia treated?", "How can viral pneumonia treated?"],
+      "response": ["Antibiotics won’t help, although in some cases your doctor may prescribe an antiviral medication like Tamiflu (oseltamivir), Relenza (zanamivir), or Rapivab (peramivir). You’ll need to rest, drink a lot of fluids, and take medicine for your fever."]
+	},
+	{
+		
+      "tag": "Bacterial pneumonia definition",
+      "patterns": ["What is bacterial pneumonia?", "What's bacterial pneumonia?", "What does bacterial pneumonia mean?", "What is the mean of bacterial pneumonia?","What's the mean of bacterial pneumonia?","What is the definition of bacterial pneumonia?","What's the definition of bacterial pneumonia?"],
+      "response": ["Bacterial infection can lead to pneumonia. The Centers for Disease Control and Prevention (CDC) found that 14% of pneumonia patients had an identifiable bacterial cause. Bacterial pneumonia can develop on its own, or after a person has had viral pneumonia."]
+	},
+	{
+		
+      "tag": "Bacterial pneumonia causes",
+      "patterns": ["What are the causes of bacterial pneumonia?", "What reasons does exist behind bacterial pneumonia?", "What causes bacterial pneumonia?", "What are the main causes of bacterial pneumonia?"],
+      "response": ["The common causes of bacterial pneumonia include: Streptococcus pneumoniae: This bacteria causes pneumococcal disease and is the most common cause of bacterial pneumonia. Legionella pneumophila: This bacteria grows in man-made water systems including hot tubs, plumbing systems, and cooling towers. It leads to a serious type of pneumonia known as Legionnnaire’s disease. Mycoplasma pneumoniae: This type of bacteria is common in crowded living spaces like dorms and prisons. It leads to a mild infection often called walking pneumonia. Chlamydia pneumoniae: This type of bacteria usually causes mild pneumonia, most often in people more than 40 years old. Haemophilus influenzae: This type of bacteria is more likely to cause pneumonia in people with existing lung conditions, like cystic fibrosis and chronic obstructive pulmonary disease (COPD)."]
+	},
+	{
+		
+      "tag": "Bacterial pneumonia symptoms",
+      "patterns": ["What are the symptoms of bacterial pneumonia?", "What are the common symptoms of bacterial pneumonia?", "What are the signs of bacterial pneumonia?"],
+      "response": ["Fever may rise as high as a dangerous 105 degrees F, with profuse sweating and rapidly increased breathing and pulse rate. Lips and nailbeds may have a bluish color due to lack of oxygen in the blood. A patient's mental state may be confused or delirious."]
+	},
+	{
+		
+      "tag": "Bacterial pneumonia treatment",
+      "patterns": ["What is the treatment for bacterial pneumonia?", "What's the treatment for bacterial pneumonia?", "How is bacterial pneumonia treated?", "How can bacterial pneumonia treated?"],
+      "response": ["Bacterial pneumonia can be treated with antibiotics such as Zithromax (azithromycin), Biaxin (clarithromycin), or Erythrocin (erythromycin). It is important to take your medication as prescribed, and let your doctor know if your symptoms change."]
+	},
+	{
+		
+      "tag": "Fungal pneumonia definition",
+      "patterns": ["What is fungal pneumonia?", "What's fungal pneumonia?", "What does fungal pneumonia mean?", "What is the mean of fungal pneumonia?","What's the mean of fungal pneumonia?","What is the definition of fungal pneumonia?","What's the definition of fungal pneumonia?"],
+      "response": ["Fungal pneumonia is caused when fungi that are present in the environment enter and begin growing in the lungs. This happens most commonly in people who have a suppressed immune system or other chronic health conditions."]
+	},
+	{
+		
+      "tag": "Fungal pneumonia causes",
+      "patterns": ["What are the causes of fungal pneumonia?", "What reasons does exist behind fungal pneumonia?", "What causes fungal pneumonia?", "What are the main causes of fungal pneumonia?"],
+      "response": ["Pneumocystis pneumonia: This fungus can cause severe pneumonia. It most commonly affects people with HIV/AIDS, or those who have had an organ transplant. Coccidioidomycosis: This fungus causes valley fever and is found in the southwestern United States. Histoplasmosis: This fungus is found in bird and bat feces in the Mississippi and Ohio River Valleys. People who are repeatedly exposed to histoplasmosis are at risk for pneumonia. Cryptococcus: This fungus is common in all soil, but is only likely to cause pneumonia in people with weakened immune systems."]
+	},
+	{
+		
+      "tag": "Fungal pneumonia treatment",
+      "patterns": ["What is the treatment for fungal pneumonia?", "What's the treatment for fungal pneumonia?", "How is fungal pneumonia treated?", "How can fungal pneumonia treated?"],
+      "response": ["Fungal pneumonia is often serious, especially since people most susceptible have other health concerns. Antifungal medications can help treat fungal pneumonia."]
+	},
+	{
+		
+      "tag": "Aspiration pneumonia definition",
+      "patterns": ["What is aspiration pneumonia?", "What's aspiration pneumonia?", "What does aspiration pneumonia mean?", "What is the mean of aspiration pneumonia?","What's the mean of aspiration pneumonia?","What is the definition of aspiration pneumonia?","What's the definition of aspiration pneumonia?"],
+      "response": ["Aspiration pneumonia happens when a person aspirates, or breaths a foreign substance into their lungs. This happens most often with food or drink. When a person swallows, a small amount of food or drink can go down the “wrong pipe,” into the lungs rather than the stomach."]
+	},
+	{
+		
+      "tag": "Aspiration pneumonia causes",
+      "patterns": ["What are the causes of aspiration pneumonia?", "What reasons does exist behind aspiration pneumonia?", "What causes aspiration pneumonia?", "What are the main causes of aspiration pneumonia?"],
+      "response": ["When a person aspirates food or drink, bacteria can be introduced into the lungs. In other cases, a person might breath in chemicals that damage the lungs. This can lead to chemical pneumonitis, an inflammation of the lungs that can progress into pneumonia. Common household chemicals like chlorine, fertilizer, and smoke can all cause chemical pneumonitis, as can stomach acid that is breathed into the lungs."]
+	},
+	{
+		
+      "tag": "Aspiration pneumonia treatment",
+      "patterns": ["What is the treatment for aspiration pneumonia?", "What's the treatment for aspiration pneumonia?", "How is aspiration pneumonia treated?", "How can aspiration pneumonia treated?"],
+      "response": ["The treatment for aspiration or chemical pneumonia will depend on what substance you inhaled, and whether it is able to be removed from the lungs."]
+	},
+	{
+		
+      "tag": "pneumonia contagious",
+      "patterns": ["Can pneumonia spread from one person to another?", "Can a person transmit pneumonia to another person?", "Is pneumonia a contagious?", "Is pneumonia a contagious disease?"],
+      "response": ["If pneumonia is caused by bacteria or a virus, it can be passed on to another person."]
+	},
+	{
+		
+      "tag": "special ages",
+      "patterns": ["Why are children under the age of two and people over the age of 65 more susceptible to the pneumonia?"],
+      "response": ["because their immune systems might not be strong enough to fight it."]
+	},
+	{
+		
+      "tag": "Increasing factors",
+      "patterns": ["What increases the chances of getting pneumonia?", "What raises the chances of getting pneumonia?"],
+      "response": ["Lifestyle habits, like smoking cigarettes and drinking too much alcohol."]
+	},
+	{
+		
+      "tag": "Pneumonia symptoms",
+      "patterns": ["What are the symptoms of pneumonia?", "What are the common symptoms of pneumonia?", "What are the signs of pneumonia?"],
+      "response": ["Shortness of breath, Fast breathing – more than 45 breaths per minute, Bluish discoloration of skin, fingertips and toenails, A bad sore throat, Swollen lymph nodes of neck, Wheezing or noisy breathing, Muscle pain, Cough, which may produce greenish, yellow or even bloody mucus, Fever, sweating and shaking chills, Sharp or stabbing chest pain that gets worse when you breathe deeply or cough, Fatigue and loss of appetite, low energy, and fatigue, Nausea and vomiting, especially in small children, Confusion, especially in older people."]
+	},
+	{
+		
+      "tag": "Pneumonia complications",
+      "patterns": ["What are the complications of pneumonia?", "What are the common complications of pneumonia?", "What are the other health disorders can pneumonia lead to?"],
+      "response": ["Bacteremia, in which bacteria spread into your blood. This can cause septic shock and organ failure. Trouble breathing, which might mean you need to use a breathing machine while your lungs heal. Fluid buildup between the layers of tissue that line your lungs and chest cavity. This fluid can also become infected. Lung abscess, when a pocket of pus forms inside or around your lung."]
+	},
+	{
+		
+      "tag": "Pneumonia risks",
+      "patterns": ["Is pneumonia fatal?", "Is pneumonia deadly?", "Is pneumonia lead to dead?"],
+      "response": ["Pneumonia is usually not fatal and can be treated with timely diagnosis and administering effective remedies. However, virus infected pneumonia in children and elderly people may prove fatal if proper and quick treatment measures are not opted for."]
+	},
+	{
+		
+      "tag": "Pneumonia tests",
+      "patterns": ["What tests are required to confirm pneumonia?", "what are tests of pneumonia?", "what are required tests of pneumonia?"],
+      "response": ["Chest X Ray, Blood test, A CT Scan of your chest, Sputum test to examine the mucous, Bronchoscopy, Pleural fluid culture, and Pulse oximetry test - To know if pneumonia has already disturbed oxygenation of blood."]
+	},
+	{
+		
+      "tag": "Pneumonia treatment",
+      "patterns": ["What is the treatment for pneumonia?", "What's the treatment for pneumonia?", "How is pneumonia treated?", "How can pneumonia treated?"],
+      "response": ["Pneumonia that has been diagnosed at an early stage can easily be treated with antibiotics and adequate rest. Infants detected with pneumonia may have to spend a night or two in hospitals to eliminate any chances of severity. Drinking plenty of fluids while in this condition is extremely important."]
+	},
+	{
+		
+      "tag": "Pneumonia recovery",
+      "patterns": ["How long does it take to recover from pneumonia?", "What is the recovery period of pneumonia?", "What's the recovery period of pneumonia?"],
+      "response": ["Patients suffering from severe pneumonia require 4- 6 months time, getting back to normal. However, reduction in intensity of symptoms can be experienced right after the medicines have been administered. Very severe pneumonia may have the following staged improvement: Within a week's time, you are no longer suffering from fever, Cough and mucous production is completely resolved by a month's time, Around the 6th week post medication, you will no longer experience breathlessness or similar difficulties, After 3 months, you only feel a little tired while all other symptoms have disappeared, Around the 6th month, you are completely back to your normal life with no signs of pneumonia."]
+	},
+	{
+		
+      "tag": "Pneumonia prevention",
+      "patterns": ["What can i do to prevent pneumonia?", "What are the ways to prevent pneumonia?", "How to prevent pneumonia?"],
+      "response": ["The following are some of the effective measures of preventing pneumonia: Abstaining from smoking and alcohol, Maintaining good hygiene to reduce chances of germ contact, Early treatment of mild flu or influenza, Eating healthy food to keep immune system at good state, Taking very good care of new borns in terms of hygiene and protection from flu germs, Maintaining clean and safe environment to reduce chances of people suffering from CAP - The most common type of pneumonia worldwide, Vaccines against pneumonia. Prevnar is a pneumonia vaccine formulated for infants. Pneumovax is available for adults."]
+	},
+	{
+		
+      "tag": "Pneumonia helper food",
+      "patterns": ["What food items can help to treat pneumonia?", "What nutrients can help treat pneumonia?", "What food can help treat pneumonia?", "Is there a food items that can help treat pneumonia?"],
+      "response": ["A mixed variety of fruits and vegetables, Beats and spinach are said to be very effective for pneumonia, Carrot juice is also equally helpful, Whole grains - Oats, brown rice, barley, Cold water fish provide required amounts of protein and omega 3 fats, Chicken soup is effective for all lung diseases including pneumonia, 6 – 10 cups of liquid, including water, juice, mild tea. Coffee needs to be avoided. Milk may lead to irritation in some patients and therefore you can choose according to your personal requirements."]
+	}
+	
+  ]
+}

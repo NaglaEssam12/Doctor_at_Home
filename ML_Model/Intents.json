@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi", "good day", "hi there", "Whats up?"],
+      "response": ["Hello", "Hey!", "What can I do for you?", "How can I be of service?", "How can I help you?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "What is your name", "What should I call you?","Who are you?"],
+      "response": ["My name is Stark", "I am called Stark", "I am Ahmed's assistant, Stark"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see ya", "see you later", "good day", "goodbye", "talk to you again"],
+      "response": ["Talk to you later", "Goodbye", "Have a good day"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["when are you open?", "what are your hours", "hours of operation?"],
+      "response": ["I am available all day everyday", "I am here 24/7"]
+    }
+  ]
+}
