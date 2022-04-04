@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "994525814873",
+    "project_id": "doctor-at-home-96983",
+    "storage_bucket": "doctor-at-home-96983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994525814873:android:da59025dd6ecfe81e35148",
+        "android_client_info": {
+          "package_name": "com.example.GPV1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994525814873-916j0r37tb8oerte6qh5nl0pf4323c0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE1e_IFd6jK9nA6I3SYG8ZYJ4qBbDzMUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994525814873-916j0r37tb8oerte6qh5nl0pf4323c0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994525814873:android:a246002d8536a885e35148",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994525814873-916j0r37tb8oerte6qh5nl0pf4323c0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE1e_IFd6jK9nA6I3SYG8ZYJ4qBbDzMUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994525814873-916j0r37tb8oerte6qh5nl0pf4323c0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
